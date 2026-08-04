@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Audio Road Book</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4efe7;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .audio-card {
+      width: min(100%, 520px);
+      padding: 28px;
+      border-radius: 24px;
+      background: white;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #17345f;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.5;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="audio-card">
+    <h1>Beuvron-en-Auge</h1>
+
+    <p>Pulsa el reproductor para escuchar el audio del Road Book.</p>
+
+    <audio controls preload="metadata">
+      <source src="brevoune.mp3" type="audio/mpeg">
+      Tu navegador no permite reproducir este audio.
+    </audio>
+  </main>
+
+</body>
+</html>
